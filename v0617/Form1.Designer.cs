@@ -41,9 +41,9 @@ namespace v0617
             this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(162, 67);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 45);
+            this.label1.Size = new System.Drawing.Size(76, 45);
             this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.label1.Text = "(\'Д\')";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // timer1

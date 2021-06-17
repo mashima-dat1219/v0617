@@ -14,6 +14,7 @@ namespace v0617
     {
         int vx = -10, vy = -10;
         int score = 100;
+        string temp, face = "('ω')";
 
         public Form1()
         {
@@ -32,21 +33,33 @@ namespace v0617
             if (label1.Left < 0)
             {
                 vx = Math.Abs(vx);
+                temp = label1.Text;
+                label1.Text = face;
+                face = temp;
             }
 
             if (label1.Top < 0)
             {
                 vy = Math.Abs(vy);
+                temp = label1.Text;
+                label1.Text = face;
+                face = temp;
             }
 
             if (label1.Right > ClientSize.Width)
             {
                 vx = -Math.Abs(vx);
+                temp = label1.Text;
+                label1.Text = face;
+                face = temp;
             }
 
             if (label1.Bottom > ClientSize.Height)
             {
                 vy = -Math.Abs(vy);
+                temp = label1.Text;
+                label1.Text = face;
+                face = temp;
             }
         }
 
