@@ -40,7 +40,7 @@ namespace v0617
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(327, 199);
+            this.label1.Location = new System.Drawing.Point(33, 150);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(76, 45);
             this.label1.TabIndex = 0;
@@ -76,7 +76,7 @@ namespace v0617
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(211, 238);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
