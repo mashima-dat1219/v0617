@@ -13,6 +13,7 @@ namespace v0617
     public partial class Form1 : Form
     {
         int vx = -10, vy = -10;
+        int score = 100;
 
         public Form1()
         {
@@ -23,6 +24,10 @@ namespace v0617
         {
             label1.Left += vx;
             label1.Top += vy;
+
+            score--;
+
+            label2.Text = "score " + score;
 
             if (label1.Left < 0)
             {
