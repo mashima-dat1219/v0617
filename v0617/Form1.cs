@@ -65,8 +65,10 @@ namespace v0617
 
         private void label1_Click(object sender, EventArgs e)
         {
-            if(timer1.Enabled == false)
-            timer1.Enabled = false;
+            if(timer1.Enabled == true)
+                timer1.Enabled = false;
+            else
+                timer1.Enabled = true;
 
         }
 
