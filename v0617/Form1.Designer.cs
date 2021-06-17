@@ -65,10 +65,10 @@ namespace v0617
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Yu Gothic UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Font = new System.Drawing.Font("Yu Gothic UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.Location = new System.Drawing.Point(23, 68);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(105, 45);
+            this.label3.Size = new System.Drawing.Size(90, 37);
             this.label3.TabIndex = 2;
             this.label3.Text = "label3";
             // 
