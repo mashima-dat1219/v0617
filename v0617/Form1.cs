@@ -65,7 +65,9 @@ namespace v0617
 
         private void label1_Click(object sender, EventArgs e)
         {
+            if(timer1.Enabled == false)
             timer1.Enabled = false;
+
         }
 
         private void Form1_Load(object sender, EventArgs e)

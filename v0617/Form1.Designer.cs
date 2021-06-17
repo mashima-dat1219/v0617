@@ -39,7 +39,7 @@ namespace v0617
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(162, 67);
+            this.label1.Location = new System.Drawing.Point(327, 199);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(76, 45);
             this.label1.TabIndex = 0;
@@ -55,7 +55,7 @@ namespace v0617
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Yu Gothic UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(162, 230);
+            this.label2.Location = new System.Drawing.Point(23, 21);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(86, 30);
             this.label2.TabIndex = 1;
